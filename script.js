@@ -151,9 +151,9 @@ btnLogin.addEventListener('click', function (event) {
     }`;
     containerApp.style.opacity = 100;
     //clear
-    loginForm.style.opacity = 0;
     inputLoginUsername.value = inputLoginPin.value = '';
     updateUI(currentUser);
+    inputLoginPin.blur();
   } else alert('Wrong login or password');
 });
 
