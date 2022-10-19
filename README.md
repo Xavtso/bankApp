@@ -1,4 +1,4 @@
-This banking application was created on the basis of working with arrays, almost all their methods are used. The app is not fully ready as the timer and dates do not work, but I will fix it soon.
+This banking application was created on the basis of working with arrays, almost all their methods are used.
 
 
 How to use?
@@ -9,7 +9,7 @@ How to use?
     password: 1111
 
  2.Account 2:
-   login: amp
+   login: mp
    password: 2222
    
  3.Account 3:
