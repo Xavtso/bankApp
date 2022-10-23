@@ -371,6 +371,7 @@ btnClose.addEventListener('click', function (e) {
 
     // Hide UI
     containerApp.style.opacity = 0;
+    labelWelcome.textContent = 'Log in to Get Started!';
   } else alert(`Wrong login or password!`);
 
   inputCloseUsername.value = inputClosePin.value = '';
@@ -379,6 +380,6 @@ btnClose.addEventListener('click', function (e) {
 let sorted = false;
 btnSort.addEventListener('click', function (e) {
   e.preventDefault();
-  displayMovements(currentAccount.movements, !sorted);
+  displayMovements(currentAccount, !sorted);
   sorted = !sorted;
 });
