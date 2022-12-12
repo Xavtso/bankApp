@@ -32,3 +32,5 @@ How to use?
   Close account will delete your account from data
   
   If you reload page all will back to start conditions
+  
+  https://xavtso.github.io/bankApp/  link for page
